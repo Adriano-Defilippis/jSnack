@@ -14,8 +14,11 @@ console.log(strDueLengt);
 
 if (strUnoLengt > strDueLengt) {
   console.log('la parola più lunga é: ' + strUno);
+  console.log(strUno, strDue);
+
 }else if (strUnoLengt < strDueLengt) {
   console.log('la parola più lunga é: ' + strDue);
+  console.log(strDue, strUno);
 } else {
   console.log('Le parole hanno la stessa lunghezza');
 }
